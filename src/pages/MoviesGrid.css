@@ -1,0 +1,76 @@
+.container .title {
+  color: #fff;
+  font-size: 2.5rem;
+  text-align: center;
+  margin: 2rem 0 1rem;
+}
+
+.title .query-text {
+  color: #db1818;
+}
+
+.movies-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.movies-container div {
+  width: 30%;
+  color: #fff;
+  margin-bottom: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #222222;
+  border-radius: 6px;
+  padding: 1rem;
+  overflow: hidden;
+  z-index: 99;
+
+}
+
+.movies-container div img {
+  max-width: 100%;
+  transition: transform 0.5s;
+  border-radius: 6px;
+}
+
+.movies-container div img:hover {
+  transform: scale(1.05);
+  border-radius: 6px;
+  z-index: 1;
+
+}
+
+
+.movies-container div img,
+.movies-container div p {
+  margin-bottom: 1rem;
+}
+
+.movies-container div h2 {
+  margin-bottom: 1.5rem;
+}
+
+.movies-container div svg {
+  color: #ffd500;
+}
+
+.movies-container div a {
+  background-color: #464646;
+  border: 2px solid #000000;
+  border-radius: 4px;
+  color: #ffffff;
+  padding: 1rem 0.5rem;
+  text-align: center;
+  font-weight: bold;
+}
+
+.movies-container div a:hover {
+  background-color: #fff;
+  color: #000000;
+}
