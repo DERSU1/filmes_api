@@ -18,3 +18,7 @@ a {
 a:hover {
   color: #000000;
 }
+
+.container {
+  color: #fff
+}
